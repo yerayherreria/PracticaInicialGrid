@@ -1,0 +1,166 @@
+#site_wrap{
+    background-color: rgb(223, 191, 191);
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr repeat(4,minmax(0,272px)) 1fr;
+    grid-gap:5px;
+    grid-template-rows: 104px 200px 200px 200px 1fr;
+    grid-template-areas: 
+        "header header header header header header"
+        ". noticia1 noticia2 noticia3 noticia4 ."
+        ". noticia5 noticia6 noticia7 noticia8 ."
+        ". noticia9 noticia10 . . ."
+        ". . . . . ."
+        ;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+
+.header{
+    background-color: rgb(206, 241, 206);
+    grid-area: header;
+}
+
+.noticia1{
+    background-color: rgb(166, 216, 240);
+    grid-area: noticia1;
+}
+
+.noticia2{
+    background-color: rgb(166, 216, 240);
+    grid-area: noticia2;
+}
+
+.noticia3{
+    background-color: rgb(166, 216, 240);
+    grid-area: noticia3;
+}
+
+.noticia4{
+    background-color: rgb(166, 216, 240);
+    grid-area: noticia4;
+}
+
+.noticia5{
+    background-color: rgb(166, 216, 240);
+    grid-area: noticia5;
+}
+
+.noticia6{
+    background-color: rgb(166, 216, 240);
+    grid-area: noticia6;
+}
+
+.noticia7{
+    background-color: rgb(166, 216, 240);
+    grid-area: noticia7;
+}
+
+.noticia8{
+    background-color: rgb(166, 216, 240);
+    grid-area: noticia8;
+}
+
+.noticia9{
+    background-color: rgb(166, 216, 240);
+    grid-area: noticia9;
+}
+
+.noticia10{
+    background-color: rgb(166, 216, 240);
+    grid-area: noticia10;
+}
+
+
+@media only screen and (max-width:767px) and (max-width:320px){
+    #site_wrap{
+        background-color: red;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr repeat(4,minmax(0,272px)) 1fr;
+        grid-gap:5px;
+        grid-template-rows: 104px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 1fr;
+        grid-template-areas: 
+        "header header header header header header"
+        "noticia1 noticia1 noticia1 noticia1 noticia1 noticia1"
+        "noticia2 noticia2 noticia2 noticia2 noticia2 noticia2"
+        "noticia3 noticia3 noticia3 noticia3 noticia3 noticia3"
+        "noticia4 noticia4 noticia4 noticia4 noticia4 noticia4"
+        "noticia5 noticia5 noticia5 noticia5 noticia5 noticia5"
+        "noticia6 noticia6 noticia6 noticia6 noticia6 noticia6"
+        "noticia7 noticia7 noticia7 noticia7 noticia7 noticia7"
+        "noticia8 noticia8 noticia8 noticia8 noticia8 noticia8"
+        "noticia9 noticia9 noticia9 noticia9 noticia9 noticia9"
+        "noticia10 noticia10 noticia10 noticia10 noticia10 noticia10"
+        ". . . . . ."
+            ;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5em;
+    }
+    
+    .header{
+        background-color: green;
+        grid-area: header;
+    }
+    
+    .noticia1{
+        background-color: rgb(0, 87, 128);
+        grid-area: noticia1;
+    }
+    
+    .noticia2{
+        background-color: rgb(0, 87, 128);
+        grid-area: noticia2;
+    }
+    
+    .noticia3{
+        background-color: rgb(0, 87, 128);
+        grid-area: noticia3;
+    }
+    
+    .noticia4{
+        background-color: rgb(0, 87, 128);
+        grid-area: noticia4;
+    }
+    
+    .noticia5{
+        background-color: rgb(0, 87, 128);
+        grid-area: noticia5;
+    }
+    
+    .noticia6{
+        background-color: rgb(0, 87, 128);
+        grid-area: noticia6;
+    }
+    
+    .noticia7{
+        background-color: rgb(0, 87, 128);
+        grid-area: noticia7;
+    }
+    
+    .noticia8{
+        background-color: rgb(0, 87, 128);
+        grid-area: noticia8;
+    }
+    
+    .noticia9{
+        background-color: rgb(0, 87, 128);
+        grid-area: noticia9;
+    }
+    
+    .noticia10{
+        background-color: rgb(0, 87, 128);
+        grid-area: noticia10;
+    }
+
+}
